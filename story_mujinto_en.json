@@ -1,0 +1,843 @@
+{
+  "intro_text": "When you open your eyes, you find yourself lying on a beach, washed ashore by the waves.\nThere’s no one around—only palm trees and an unfamiliar jungle stretching into the distance.\nYou have nothing with you, and you don’t know where you are, or why you ended up here.\n\n—But one thing is certain.\nYou won’t survive if you stay like this.\n\nYour adventure begins with LP (Life Points) 100.\nYour choices and actions will reduce LP, and sometimes even lead to an instant Game Over.\nIf your LP reaches 0, it’s Game Over.\n\nThis game runs on Streamlit.\nIf you reload the page, the story will reset from the beginning, so be careful.\n\nCan you escape this strange deserted island?\nOr will you be swallowed by the countless trials ahead?\nYour fate depends entirely on your choices.",
+  "chapters": {
+    "1": {
+      "image": "1.png",
+      "text": "You wake up with gritty sand in your mouth.\nThe tropical sun and the crash of waves greet you as a hermit crab proudly struts past.\nBehind you lies the dense jungle, before you the sparkling sea.\nTo survive, you have no choice but to move.",
+      "choices": [
+        {
+          "text": "Wash your face with seawater",
+          "correct": true,
+          "result": {
+            "result_image": "1_1.png",
+            "text": "You splash seawater on your face. The chill of the salt clears your head. Tiny fish dart at your feet, while white seabirds circle overhead. Taking in your surroundings, you feel calm enough to plan your next move. Each step from here will be a challenge for survival.",
+            "lp": 0,
+            "next": "2"
+          }
+        },
+        {
+          "text": "Check the rocky shore",
+          "correct": true,
+          "result": {
+            "result_image": "1_2.png",
+            "text": "As you approach the rocks, the sand suddenly sinks beneath you—quicksand! You thrash and manage to pull free, but you’re tangled in seaweed and your ankle is twisted. LP -10. Worse still, the rocks offer nothing useful. A tiring, painful detour.",
+            "lp": -10,
+            "next": "2"
+          }
+        },
+        {
+          "text": "Dash into the jungle",
+          "correct": true,
+          "result": {
+            "result_image": "1_3.png",
+            "text": "You charge into the jungle, only to slam your forehead against a branch and tumble hard. Pain shoots through your shoulders and back—LP -20. No bones broken, but you can’t move until you catch your breath. You’ve reached the jungle’s edge, but reckless rushing proves too dangerous.",
+            "lp": -20,
+            "next": "2"
+          }
+        }
+      ]
+    },
+
+    "2": {
+      "image": "2.png",
+      "text": "After finishing your first actions on the beach, you stop to reassess the situation.\nThe blazing sun beats down, your throat dry.\nSeawater is undrinkable—you’ll need fresh water.\nAhead lies a narrow path into the jungle, while the beach stretches toward a darker, shaded area.",
+      "choices": [
+        {
+          "text": "Enter the cave among the rocks",
+          "correct": true,
+          "result": {
+            "result_image": "2_1.png",
+            "text": "You step into a hole in the rocks, chilled air brushing your skin. Suddenly, something slimy brushes your ankle. A massive crab emerges, its claw snapping shut on your leg—LP -10! Panicked, you scramble back outside, abandoning the cave. You later stumble across a small stream in the jungle and finally quench your thirst.",
+            "lp": -10,
+            "next": "3"
+          }
+        },
+        {
+          "text": "Sprint along the beach",
+          "correct": true,
+          "result": {
+            "result_image": "2_2.png",
+            "text": "“The jungle’s too risky—the beach it is!” you shout, dashing under the blazing sun. But the hot sand scorches your bare feet, draining your stamina. Your vision wavers, and you collapse to your knees, gasping for air—LP -20. Eventually, you too reach the jungle stream and find water.",
+            "lp": -20,
+            "next": "3"
+          }
+        },
+        {
+          "text": "Search for a stream deeper in the jungle",
+          "correct": true,
+          "result": {
+            "result_image": "2_3.png",
+            "text": "Following the narrow trail, the sound of running water soon reaches your ears. A crystal-clear stream sparkles beneath the sunlight, tiny fish swimming in its flow. Scooping the cool water into your hands, its refreshing sweetness fills you with relief. Nearby fruit offers extra sustenance. For the first time, hope stirs that you might endure here.。",
+            "lp": 0,
+            "next": "3"
+          }
+        }
+      ]
+    },
+    "3": {
+      "image": "3.png",
+      "text": "Relief from finding water is short-lived—hunger gnaws at you.\nFruit in the jungle, crabs on the beach, or shellfish on the rocks… it’s time to decide where to find food.",
+      "choices": [
+        {
+          "text": "Catch a crab on the beach",
+          "correct": true,
+          "result": {
+            "result_image": "3_1.png",
+            "text": "You spot a large crab and reach to grab it. SNAP! Its sharp claw clamps down on your hand. The pain makes you yelp and drop it—LP -10. Defeated, you abandon the crab and turn to the jungle’s fruit to stave off hunger.",
+            "lp": -10,
+            "next": "4"
+          }
+        },
+        {
+          "text": "Search for fruit in the jungle",
+          "correct": true,
+          "result": {
+            "result_image": "3_2.png",
+            "text": "You discover bright, colorful fruit hanging low. Drawn by its sweet aroma, you bite in, juice bursting across your tongue. The taste revives you, restoring your strength. Resting in the shade, you feel secure enough to keep exploring with renewed spirit.",
+            "lp": 0,
+            "next": "4"
+          }
+        },
+        {
+          "text": "Collect shellfish on the rocks",
+          "correct": true,
+          "result": {
+            "result_image": "3_3.png",
+            "text": "You bend to pick up a glimmering shell when—WHOOSH!—a massive octopus tentacle lashes out from the surf. It coils around your waist, dragging you into the sea. Saltwater floods your lungs before you can fight back. Darkness closes in, and you never open your eyes again. Game Over.",
+            "lp": -100,
+            "next": "4"
+          }
+        }
+      ]
+    },
+    "4": {
+      "image": "4.png",
+      "text": "After eating and resting, the sun sinks lower.\nNight is coming—and with it, danger.\nYou must find a safe place to spend the night.\nThe roots of a great tree in the jungle, the depths of the rocky cliffs, or the wooden boat left on the beach… all are possibilities.",
+      "choices": [
+        {
+          "text": "Rest deeper in the rocky cliffs",
+          "correct": true,
+          "result": {
+            "result_image": "4_1.png",
+            "text": "At first the rocky hollow seems safe, but once night falls, the sea wind whistles in, sapping your warmth. The damp ground makes sleep shallow and restless. LP -10. By morning, your body is stiff, fatigue lingering in your bones.",
+            "lp": -10,
+            "next": "4.5"
+          }
+        },
+        {
+          "text": "Sleep in the boat on the beach",
+          "correct": true,
+          "result": {
+            "result_image": "4_2.png",
+            "text": "The wooden boat looks inviting enough, but at night the tide rises, waves lapping at the hull. Spray soaks your clothes, and the wood groans and cracks under the pressure. LP -20. You wake with a heavy body and the first hints of a cold.",
+            "lp": -20,
+            "next": "4.5"
+          }
+        },
+        {
+          "text": "Rest at the roots of a giant tree",
+          "correct": true,
+          "result": {
+            "result_image": "4_3.png",
+            "text": "The tree’s roots curve into a natural hollow, surprisingly comfortable. Fallen leaves soften the ground, and the canopy above shelters you from dew. Food is close at hand, and the quiet of the jungle lulls you into deep sleep. For the first time, you feel a measure of safety.",
+            "lp": 0,
+            "next": "4.5"
+          }
+        }
+      ]
+    },
+    "4.5": {
+      "image": "4_5.png",
+      "text": "The sun rises, painting the sea in gold. Yet beneath its beauty, questions churn within me. Why am I on this deserted island? How did I get here? Even my memories from yesterday are unclear.",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "4_5.png",
+            "text": "I have no belongings—it's as if everything has been stripped away. Surviving like this will be nearly impossible. No reasons, no answers. Only one thing is certain: I must find a way to escape this place.",
+            "lp": 0,
+            "next": "5"
+
+
+          }
+        }
+      ]
+    },
+    "5": {
+      "image": "5.png",
+      "text": "The morning sun warms your body—then, rustling in the jungle.\nFrom the shadows emerges a gigantic chameleon, its long tongue flicking as it stares straight at you.\nIt seems to be the ruler of this island.\nHow will you respond?",
+      "choices": [
+        {
+          "text": "Climb a tree to watch it",
+          "correct": true,
+          "result": {
+            "result_image": "5.png",
+            "text": "You clamber up a low tree and observe. Over two meters long, its eyes swivel independently, yet both fix on you with eerie precision. Luckily, it becomes absorbed in some berries and eventually lumbers off into the jungle.",
+            "lp": 0,
+            "next": "6"
+          }
+        },
+        {
+          "text": "Throw a stone to scare it",
+          "correct": true,
+          "result": {
+            "result_image": "5_2.png",
+            "text": "You hurl a rock. SMACK! The chameleon lets out a guttural hiss, tongue snapping in warning. Fear grips you and you backpedal, tripping and injuring your knee—LP -10. It doesn’t follow, but you still feel its gaze burning in your back.",
+            "lp": -10,
+            "next": "6"
+          }
+        },
+        {
+          "text": "Charge straight at it",
+          "correct": true,
+          "result": {
+            "result_image": "5_3.png",
+            "text": "“Attack first!” you shout, sprinting headlong. But the giant tongue whips out, coiling around your body. Bones creak under the pressure before you’re yanked into its gaping jaws. Darkness swallows you. Game Over.",
+            "lp": -100,
+            "next": "6"
+          }
+        }
+      ]
+    },
+    "6": {
+      "image": "6.png",
+      "text": "You manage to slip past the giant chameleon and catch your breath.\nBeyond the jungle lies a dark cave. From within comes a faint glow—and the clanging of metal.\nCould this be a clue for escape?",
+      "choices": [
+        {
+          "text": "Open the wooden crate",
+          "correct": true,
+          "result": {
+            "result_image": "6_1.png",
+            "text": "You pry open the crate. WHOOSH! A swarm of bats bursts out, their wings beating frantically. Startled, you stumble back and twist your ankle—LP -10. But deeper inside, you discover an old, rusted compass.",
+            "lp": -10,
+            "next": "6.5"
+          }
+        },
+        {
+          "text": "Head toward the light",
+          "correct": true,
+          "result": {
+            "result_image": "6_2.png",
+            "text": "You follow the glow and arrive at an underground lake, shimmering under shafts of light. Among the wreckage of a small boat, you uncover a weathered compass. At last, a tool to guide your way.",
+            "lp": 0,
+            "next": "6.5"
+          }
+        },
+        {
+          "text": "Follow the sound",
+          "correct": true,
+          "result": {
+            "result_image": "6_3.png",
+            "text": "You creep toward the metallic clanging. Suddenly, the source reveals itself: a monstrous hermit crab, its shell an old iron pot. It snaps at you with enormous claws—LP -20. You barely escape, but not before grabbing a battered compass.",
+            "lp": -20,
+            "next": "6.5"
+          }
+        }
+      ]
+    },
+    "6.5": {
+      "image": "6.5.png",
+      "text": "Now that you have a compass, you decide to climb higher ground, to grasp the island’s full layout.",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "6.5.png",
+            "text": "You tread over damp soil, pushing deeper into the jungle.\nWhere on earth is this place?\nAre there others here—or am I truly alone?\nThe further you walk, the tighter the knot of unease in your chest becomes.",
+            "lp": 0,
+            "next": "7"
+
+
+          }
+        }
+      ]
+    },
+
+    "7": {
+      "image": "7.png",
+      "text": "Pushing through the trees and climbing a steep slope, you spot something man-made:\na wooden watchtower. But the ladder is broken halfway up. You’ll need some ingenuity to climb it…",
+      "choices": [
+        {
+          "text": "Climb carefully up the ladder",
+          "correct": true,
+          "result": {
+            "result_image": "7_3.png",
+            "text": "You place your weight gently, inch by inch. But SNAP—the rung gives way, and you slam your knee—LP -10. With sheer arm strength, you haul yourself to the top. The view is breathtaking, revealing what seems to be an artificial path.",
+            "lp": -10,
+            "next": "8"
+          }
+        },
+        {
+          "text": "Climb the tree directly",
+          "correct": true,
+          "result": {
+            "result_image": "7_3.png",
+            "text": "“With enough momentum, I can make it!” you mutter, scrambling up. But your shoe slips—CRACK! Pain shoots up your leg, then THUD, a mysterious fruit falls from above and smacks your head. LP -20. Still, from the height, you glimpse what looks like a man-made trail.",
+            "lp": 0,
+            "next": "8"
+          }
+        },
+        {
+          "text": "Repair the ladder",
+          "correct": true,
+          "result": {
+            "result_image": "7_3.png",
+            "text": "You gather branches and vines to patch the broken rungs. With cautious steps, you climb to the watchtower. From the top, the whole island spreads before you. In the distance, a white sandy beach—and a suspiciously straight row of trees. You jot the bearings with your compass.",
+            "lp": 0,
+            "next": "8"
+          }
+        }
+      ]
+    },
+    "8": {
+      "image": "8.png",
+      "text": "You follow the direction seen from the high ground.\nThe forest clears into a road lined with palm trees on both sides, unnaturally straight.\nBut the path curves ahead—you can’t see what lies beyond.",
+      "choices": [
+        {
+          "text": "Dash down the road",
+          "correct": true,
+          "result": {
+            "result_image": "8_1.png",
+            "text": "“I’ll run until I drop!” you shout, sprinting full speed. Suddenly—SQUISH! You step on a banana peel and go sliding across the sand. LP -20. Covered in grit, you stagger to the end where an old wooden sign stands:\n　WELCOME—though half the paint is flaked, giving it a creepy vibe.",
+            "lp": -20,
+            "next": "9"
+          }
+        },
+        {
+          "text": "Walk along the side of the road",
+          "correct": true,
+          "result": {
+            "result_image": "8_1.png",
+            "text": "You avoid the main path, wary of traps. But the ground grows soft—SPLAT! Your foot sinks into a swampy patch. LP -10. Mud clings to your clothes, weighing you down, but you reach the same sign:\n　WELCOME. Should you trust it?",
+            "lp": -10,
+            "next": "9"
+          }
+        },
+        {
+          "text": "Take the road straight ahead",
+          "correct": true,
+          "result": {
+            "result_image": "8_1.png",
+            "text": "The sandy path is smooth, little flowers blooming at the edges. Rounding the curve, you find the weathered sign:\n　WELCOME, paint peeling but harmless enough. Something tells you the path beyond hides something important.",
+            "lp": 0,
+            "next": "9"
+          }
+        }
+      ]
+    },
+    "9": {
+      "image": "9.png",
+      "text": "Following the sign, you emerge into an open clearing.\nAt the center sparkles a fountain, surrounded by hammocks swaying in the breeze.\nBut strange footprints circle the fountain, fresh in the sand…",
+      "choices": [
+        {
+          "text": "Drink from the fountain",
+          "correct": true,
+          "result": {
+            "result_image": "9.png",
+            "text": "The water looks so pure you can’t resist. You scoop it up and gulp—SALTY! Burning brine scorches your throat. It’s concentrated seawater, far beyond safe. LP -20. Wheezing, you collapse into a hammock.",
+            "lp": -20,
+            "next": "10"
+          }
+        },
+        {
+          "text": "Follow the footprints",
+          "correct": true,
+          "result": {
+            "result_image": "9_2.png",
+            "text": "The tracks lead deeper into the forest. Suddenly—RUSTLE! A giant crab lunges out of the bushes. You flee, but thorns tear at your arm—LP -10. Bruised, you retreat to the hammocks to rest.",
+            "lp": -10,
+            "next": "10"
+          }
+        },
+        {
+          "text": "Rest in a hammock",
+          "correct": true,
+          "result": {
+            "result_image": "9_3.png",
+            "text": "You sink into the hammock, swaying gently. Relaxation seeps through your body. Then—chop, chop—the sound of someone cutting wood echoes in the distance. Someone else is here… You mark the direction and prepare to move on.",
+            "lp": 0,
+            "next": "10"
+          }
+        }
+      ]
+    },
+    "10": {
+      "image": "10.png",
+      "text": "From deep within the forest comes a steady sound: clang, clang.\nAt first you think it’s the wind, but no—it’s the rhythm of chopping wood.\nCould there really be another human on this island?",
+      "choices": [
+        {
+          "text": "Climb a tree for a better view",
+          "correct": true,
+          "result": {
+            "result_image": "10_1.png",
+            "text": "You climb high and peer into the jungle. A human figure is chopping wood, assembling something. Nearby, the outline of a small boat! Escape might be possible. You descend, heart racing, and head that way.",
+            "lp": 0,
+            "next": "11"
+          }
+        },
+        {
+          "text": "Observe your surroundings first",
+          "correct": true,
+          "result": {
+            "result_image": "10_2.png",
+            "text": "Before rushing in, you scan the area. The ground bulges oddly—SNAP! Suddenly coconuts rain from above. One smashes your head—LP -10. Dizzy, you press on toward the sound.",
+            "lp": -10,
+            "next": "11"
+          }
+        },
+        {
+          "text": "Charge straight toward the sound",
+          "correct": true,
+          "result": {
+            "result_image": "10_3.png",
+            "text": "You dash recklessly forward—CRASH! The ground gives way, and you tumble into a deep pit. Damp earth and sharp rocks batter your body—LP -20. Mud-soaked and aching, you claw your way out and stagger toward the sound.",
+            "lp": -20,
+            "next": "11"
+          }
+        }
+      ]
+    },
+    "11": {
+      "image": "11.png",
+      "text": "Following the sound, you find a man chopping wood. When he notices you, he smiles and speaks—but in a strange language you’ve never heard. You realize gestures may be the only way to communicate.",
+      "choices": [
+        {
+          "text": "Wave your hands back",
+          "correct": true,
+          "result": {
+            "result_image": "11.png",
+            "text": "You wave both hands, and the man beams, nodding with relief. It seems your friendly intent was understood. With the tension eased, you can move forward without fear.",
+            "lp": 0,
+            "next": "12"
+          }
+        },
+        {
+          "text": "Smile and nod",
+          "correct": true,
+          "result": {
+            "result_image": "11_2.png",
+            "text": "You smile and nod politely. But the man tilts his head, repeating the same words with growing irritation. Your intent was misunderstood, and the tension thickens. Mentally drained, you lose some strength. (LP -10)",
+            "lp": -10,
+            "next": "12"
+          }
+        },
+        {
+          "text": "Keep your distance and watch",
+          "correct": true,
+          "result": {
+            "result_image": "11_3.png",
+            "text": "You cautiously keep your distance. Suddenly, the man raises his voice, pouring out strange words. Though not hostile, he seems upset. The misunderstanding fills you with stress and unease. (LP -20)",
+            "lp": -20,
+            "next": "12"
+          }
+        }
+      ]
+    },
+    "12": {
+      "image": "12.png",
+      "text": "The woodcutter sets down his sharpened axe. He stares at you, shrugging and making odd gestures. Words won’t work here—you’ll have to rely on body language to decide what to do next.",
+      "choices": [
+        {
+          "text": "Act like you want to rest",
+          "correct": true,
+          "result": {
+            "result_image": "12_1.png",
+            "text": "You mimic sleeping. The woodcutter suddenly bursts out laughing, singing something nonsensical. Startled, you stumble and fall, hurting yourself slightly. (LP -10)",
+            "lp": -10,
+            "next": "13"
+          }
+        },
+        {
+          "text": "Show a big smile",
+          "correct": true,
+          "result": {
+            "result_image": "12_2.png",
+            "text": "You raise your hands with a smile. The woodcutter mirrors the gesture with an awkward grin. Uncertainty remains, but at least he doesn’t seem like an enemy.",
+            "lp": 0,
+            "next": "13"
+          }
+        },
+        {
+          "text": "Add branches to the fire",
+          "correct": true,
+          "result": {
+            "result_image": "12_3.png",
+            "text": "You gesture to the fire, inviting him to sit together. But he suddenly tosses a branch into the flames—FOOM! Sparks burst, burning your arm. His unpredictable behavior only deepens your unease. (LP -20)",
+            "lp": -20,
+            "next": "13"
+          }
+        }
+      ]
+    },
+    "13": {
+      "image": "13.png",
+      "text": "After these strange exchanges, the woodcutter suddenly points deeper into the forest and begins walking. Glancing back, he beckons for you to follow. Words are useless, but with ominous noises closing in, you may have no choice.",
+      "choices": [
+        {
+          "text": "Follow him obediently",
+          "correct": true,
+          "result": {
+            "result_image": "13_1.png",
+            "text": "You trail behind him and soon find yourself on a well-maintained path. It feels out of place in the wild forest, but the realization grows—this man might not be your enemy after all.",
+            "lp": 0,
+            "next": "14"
+          }
+        },
+        {
+          "text": "Run into another path",
+          "correct": true,
+          "result": {
+            "result_image": "13_1.png",
+            "text": "You bolt into the woods. Sharp branches slash your skin, and you stumble on unstable ground. Bruised and weakened, you glance back—the woodcutter only watches you curiously. You decide it’s safer to follow him after all. (LP -10)",
+            "lp": -10,
+            "next": "14"
+          }
+        },
+        {
+          "text": "Stay and wait",
+          "correct": true,
+          "result": {
+            "result_image": "13_1.png",
+            "text": "You remain still, watching. The woodcutter eventually leaves. Moments later, a beastly shadow approaches from the forest. You flee in panic, injuring yourself on branches. Drained and shaken, you regret not following him. (LP -20)",
+            "lp": -20,
+            "next": "14"
+          }
+        }
+      ]
+    },
+    "14": {
+      "image": "14.png",
+      "text": "Beyond the forest lies an old pier. The woodcutter gestures toward the pier and a boat, waving his arms urgently. Could this be a way to escape?",
+      "choices": [
+        {
+          "text": "Try repairing the old boat",
+          "correct": true,
+          "result": {
+            "result_image": "14_1.png",
+            "text": "You patch holes desperately, but water keeps seeping in. Exhausted, you see the woodcutter point toward the forest. There, a hidden small boat awaits. Though drained, you’ve found hope for escape. (LP -10)",
+            "lp": -10,
+            "next": "14.5"
+          }
+        },
+        {
+          "text": "Build a raft from the pier’s remains",
+          "correct": true,
+          "result": {
+            "result_image": "14_1.png",
+            "text": "You struggle to lash logs and planks together. The labor drains you, and the raft threatens to collapse with every wave. Just as despair sets in, the woodcutter beckons you to a hidden boat. The long detour leaves you weary. (LP -20)",
+            "lp": -20,
+            "next": "14.5"
+          }
+        },
+        {
+          "text": "Carefully watch his gestures",
+          "correct": true,
+          "result": {
+            "result_image": "14_1.png",
+            "text": "Watching closely, you realize he’s pointing into the forest. Following his lead, you find a sturdy hidden boat. Without wasting strength, you secure the safest path to escape.",
+            "lp": 0,
+            "next": "14.5"
+          }
+        }
+      ]
+    },
+    "14.5": {
+      "image": "14_5.png",
+      "text": "Just as you push the boat into the water, a chill runs down your spine. From the bushes, a mask stares directly at you—silent and eerie.",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "14_6.png",
+            "text": "Masked tribesmen emerge one after another from the forest, quietly surrounding you. The tension is suffocating… There’s no time to hesitate—you must set sail now!",
+            "lp": 0,
+            "next": "15"
+
+
+          }
+        }
+      ]
+    },
+
+    "15": {
+      "image": "15.png",
+      "text": "The woodcutter gestures wildly—“Go, quickly!” In a rush, you shove the boat out, leaving with no supplies.",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "15_1.png",
+            "text": "As the boat drifts, you glimpse the woodcutter facing the tribe, waving his arm toward the northwest. With trembling hands, you take out your compass and follow its needle. The sea is calm, but you carry almost nothing—no water, no food. The sound of axes and shouts fades behind you, and your lonely voyage begins.",
+            "lp": 0,
+            "next": "15.5"
+          }
+        }
+
+
+
+      ]
+    },
+    "15.5": {
+      "image": "15_5.png",
+      "text": "The small boat rocks as you row toward a distant island. With little food or water, questions flood your mind. What was that island? Who was the woodcutter? And who were those masked tribes?",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "15_5.png",
+            "text": "But the thought that grips your heart most is leaving the woodcutter behind. Is he safe? Will the tribe harm him? With no answers, you row desperately onward, burdened by guilt and uncertainty.",
+            "lp": 0,
+            "next": "16"
+
+
+          }
+        }
+      ]
+    },
+
+    "16": {
+      "image": "16.png",
+      "text": "Under the blazing sun, hunger and thirst gnaw at you. Drifting at sea, you spot both a wooden crate and darting fish. The wrong choice could sap your strength—choose wisely if you want to survive.",
+      "choices": [
+        {
+          "text": "Drink seawater",
+          "correct": true,
+          "result": {
+            "result_image": "16.png",
+            "text": "The moment you swallow seawater, the salt scorches your throat. Your head spins, and dehydration sets in fast. Darkness closes in as you drift into unconsciousness…",
+            "lp": -100,
+            "next": "16.5"
+          }
+        },
+        {
+          "text": "Pull up the crate",
+          "correct": true,
+          "result": {
+            "result_image": "16_2.png",
+            "text": "With all your strength, you haul in the crate. Inside: hardtack, bottled water, a flare, and an old medical kit. The timing feels uncanny—almost as if someone placed it there for you.",
+            "lp": 0,
+            "next": "16.5"
+          }
+        },
+        {
+          "text": "Catch a fish barehanded",
+          "correct": true,
+          "result": {
+            "result_image": "16.png",
+            "text": "You lunge for the fish, but they dart away swiftly. Exhausted, your breathing grows ragged. Just then, the drifting crate bumps against your boat. Inside are food and water aplenty. Your effort was wasted, but you live to fight another day. (LP -10)",
+            "lp": -10,
+            "next": "16.5"
+          }
+        }
+      ]
+    },
+    "16.5": {
+      "image": "16_5.png",
+      "text": "The sea grows rougher, tossing your boat. The distant island still lies far away. Behind you, heavy clouds gather, and the wind sharpens, chilling your skin.",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "16_5.png",
+            "text": "“What if a storm strikes…?” Fear creeps into your chest. Waves rise, the boat lurches, and your grip on the oars weakens. Short on food and water, now even nature itself feels like an enemy closing in.",
+            "lp": 0,
+            "next": "17"
+
+
+          }
+        }
+      ]
+    },
+
+    "17": {
+      "image": "17.png",
+      "text": "The sky turns black. Thunder roars. Fierce winds and towering waves assault your tiny boat. Rain pours like a waterfall, blinding your sight. The boat threatens to capsize at any moment.",
+      "choices": [
+        {
+          "text": "Row with all your might",
+          "correct": true,
+          "result": {
+            "result_image": "17.png",
+            "text": "You strain with all your strength, but the storm is overwhelming. The boat grows unstable, seawater splashes over you, and your energy is drained. (LP -20)",
+            "lp": -20,
+            "next": "18"
+          }
+        },
+        {
+          "text": "Lie flat and endure",
+          "correct": true,
+          "result": {
+            "result_image": "17.png",
+            "text": "You press low in the boat, letting the waves carry you. At times you nearly get swept away, but buoyancy keeps the boat afloat. Hours later, the storm eases, and you’ve survived.",
+            "lp": 0,
+            "next": "18"
+          }
+        },
+        {
+          "text": "Row into the waves",
+          "correct": true,
+          "result": {
+            "result_image": "17.png",
+            "text": "You face the waves head-on, rowing fiercely. The boat holds, but exhaustion seizes your arms. (LP -10)",
+            "lp": -10,
+            "next": "18"
+          }
+        }
+      ]
+    },
+    "18": {
+      "image": "18.png",
+      "text": "The sea falls silent after the storm—until a sharp dorsal fin slices through the waves.\nA massive shark circles your boat, fixing you with a predatory gaze.\nHow will you survive this?",
+      "choices": [
+        {
+          "text": "Strike with the oar",
+          "correct": true,
+          "result": {
+            "result_image": "18.png",
+            "text": "Summoning all your courage, you slam the oar down. But it only enrages the shark. It thrashes violently against the boat, draining your strength. (LP -20) Worse still, its gaping jaws lunge, threatening to bite the boat in half!",
+            "lp": -20,
+            "next": "18.5"
+          }
+        },
+        {
+          "text": "Stay perfectly still",
+          "correct": true,
+          "result": {
+            "result_image": "18.png",
+            "text": "You crouch low, unmoving. The shark circles, then stops. Relief comes—too soon. Its jaws suddenly open wide, and it charges to tear the boat apart!",
+            "lp": 0,
+            "next": "18.5"
+          }
+        },
+        {
+          "text": "Shout loudly to scare it",
+          "correct": true,
+          "result": {
+            "result_image": "18.png",
+            "text": "“Uooooooh!” you roar. The shark only grows more frenzied, slamming the boat from the side. The vessel flips, tossing you into the sea. There is no way to survive…",
+            "lp": -100,
+            "next": "18.5"
+          }
+        }
+      ]
+    },
+    "18.5": {
+      "image": "500.png",
+      "text": "It’s here… the decisive moment.",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "500.png",
+            "text": "Will you be swallowed whole—or somehow survive?",
+            "lp": 0,
+            "next": "19"
+
+          }
+        }
+      ]
+    },
+    "19": {
+      "image": "19.png",
+      "text": "",
+      "choices": [
+        {
+          "text": "Strike with the oar",
+          "correct": true,
+          "result": {
+            "result_image": "19_1.png",
+            "text": "You swing hard at the shark’s snout—the most sensitive spot. Shocked, it recoils and vanishes into the depths. You’ve survived, but your heart still pounds like a drum.",
+            "lp": 0,
+            "next": "20"
+          }
+        },
+        {
+          "text": "Stay perfectly still",
+          "correct": true,
+          "result": {
+            "result_image": "19.png",
+            "text": "You hope staying still will keep you safe. But suddenly, the shark lunges with jaws wide. The boat splinters in two, and you’re cast into the icy sea, swallowed by the dark depths.",
+            "lp": -100,
+            "next": "20"
+          }
+        },
+        {
+          "text": "Shout loudly to scare it",
+          "correct": true,
+          "result": {
+            "result_image": "19.png",
+            "text": "“Uoooooh!” you cry out. The shark takes it as a provocation, ramming the boat violently. You nearly capsize and lose much of your strength. (LP -10) At last, you manage to strike its snout with the oar, driving it off.",
+            "lp": -10,
+            "next": "20"
+          }
+        }
+      ]
+    },
+    "20": {
+      "image": "20.png",
+      "text": "The shark is gone. Breathing raggedly, you notice a faint light flickering on the distant horizon.\nA ship? A lighthouse? A sign of hope?",
+      "choices": [
+        {
+          "text": "次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "20_1.png",
+            "text": "You row with the last of your strength and fire the flare you found in the crate, shouting with all your might.",
+            "lp": 0,
+            "next": "21"
+
+          }
+        }
+      ]
+    },
+    "21": {
+      "image": "21.png",
+      "text": "The flare seems to catch the attention of a distant ship.\nIt approaches, and a rope is thrown down. As you’re hauled onto the deck, your body collapses in exhaustion.",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "21_1.png",
+            "text": "Standing there on the deck is—the woodcutter. Smiling, he now speaks to you in a language you can finally understand.",
+            "lp": 0,
+            "next": "22"
+
+          }
+        }
+      ]
+    },
+    "22": {
+      "image": "21_1.png",
+      "text": "“Well done. Tell me—did you truly enjoy yourself?”",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "21_1.png",
+            "text": "He reveals the truth: he is the island’s owner, and this “Deserted Island Survival” was an attraction for those who paid dearly to experience it.\nYour memory was deliberately clouded for realism. Every danger—the storm, the shark—was carefully orchestrated.\nAnd yet, the fear and tension you felt were real.\nStunned, you nevertheless feel a deep sense of accomplishment—you survived.",
+            "lp": 0,
+            "next": "23"
+
+
+          }
+        }
+      ]
+    },
+    "23": {
+      "image": "23.png",
+      "text": "From the ship’s deck, you look back. The island fades into the distance, now lit up like an amusement park.\nThe woodcutter grins slyly.\n“Whenever you feel like challenging it again, you’re welcome back anytime.”",
+      "button_label_c": "▶終わり / END",
+      "choices": []
+
+    }
+  }
+}
