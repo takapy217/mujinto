@@ -1,0 +1,802 @@
+{
+  "intro_text": "気がつくと、あなたは波に打ち上げられた砂浜に倒れていた。\n周囲には誰もおらず、ただヤシの木と見知らぬジャングルが広がっている。\n果たしてあなたは、この奇妙な無人島から脱出できるのだろうか？\n\n　\n\n※このゲームでは、場面ごとに行動を選択することになります。\n選んだ行動によってサバイバルポイントが加算され、最後にあなたの生存スキルに応じたランクが発表されます。",
+  "chapters": {
+
+    "1": {
+      "image": {"type": "video","file": "1-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "砂の熱で目が覚めた。ここは見知らぬ浜だ。右手の中には「無人島から脱出せよ」と走り書きされた小さな紙片。ここはどこだ？",
+         "choices": [
+          {
+            "text": "海水で顔を洗う",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "1-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "海水で顔を洗い、刺すような冷たさに頭が冴える。私は誰なのか――そして、なぜここにいるのか。",
+              "lp": 4,
+              "next": "2"
+            }
+          },
+          {
+            "text": "近くの岩場を調べに行く",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "1-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "岩場に近づいた瞬間、砂が沈み、両足が流砂に取られた。岩場に役に立ちそうなものは見当たらず、探索は徒労に終わった。",
+              "lp": 0,
+              "next": "2"
+            }
+          },
+          {
+            "text": "日差しを避けるために森へ向かう",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "1-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "森へ向かったものの枝に額を強打し転倒。砂浜に戻ることにした。",
+              "lp": 0,
+              "next": "2"
+            }
+          }
+        ]
+      },
+
+    "2": {
+        "image": {"type": "video","file": "2-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "森へ続く小道と、岩陰に洞窟らしき場所も見えた。この先の砂浜も気になる。どこへ向かう？",
+        "choices": [
+          {
+            "text": "岩陰の洞窟を覗いてみる",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "2-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "巨大なヌメヌメ蟹が現れ爪で挟まれそうになる。慌てて外へ逃げ、洞窟探索は断念。その後、森の奥の小川を探すことにした。",
+              "lp": 0,
+              "next": "50"
+            }
+          },
+          {
+            "text": "森の奥の小川を探す",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "2-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "小道を進むと水音が響き、小川が姿を現した。飲み水になりそうだ。",
+              "lp": 5,
+              "next": "3"
+            }
+          },
+          {
+            "text": "そのまま砂浜沿いを探索する",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "2-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "熱砂が裸足を焼き体力消耗。結局、その後、森の奥の小川を探すことにした。",
+              "lp": 0,
+              "next": "50"
+            }
+          }
+        ]
+      },
+
+
+    "3": {
+        "image":{"type": "video","file": "3-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "水を得た安堵も束の間、空腹が迫る。森の果実、砂浜のカニ、岩場の貝…どこで食料を得るか選択の時だ。",
+        "choices": [
+          {
+            "text": "砂浜でカニを捕まえる",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "3-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "捕まえようとした瞬間、鋭い爪が手を挟む。「バチン！」痛みに耐えきれず諦める。結局、森で果実を探すことにした。",
+              "lp": 0,
+              "next": "51"
+            }
+          },
+          {
+            "text": "森で果実を探す",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "3-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "森で色鮮やかな果実を発見。甘い香りに誘われて口にすると果汁が広がり、体力が回復する。しばらく食べ物は大丈夫そうだ。",
+              "lp": 6,
+              "next": "4"
+            }
+          },
+          {
+            "text": "岩場で貝を拾う",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "3-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "岩場で光る貝殻を拾おうとした瞬間、海から巨大なタコが現れ腰を抜かす。岩場は諦めて森で果実を探すことにした。",
+              "lp": 0,
+              "next": "51"
+            }
+          }
+        ]
+      },
+
+      "4": {
+        "image": {"type": "video","file": "4-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "食事も済ませたら次は寝る場所。森の根元、岩場の奥、砂浜のボートが候補だ。",
+        "choices": [
+          {
+            "text": "岩場の奥で休む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "4-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "岩場の奥は一見安全だが、夜は潮風が吹き込み体温を奪う。湿った地面で眠りは浅い。波音に不安が募り、朝には体がこわばり疲労が残った。",
+              "lp": 0,
+              "next": "5"
+            }
+          },
+          {
+            "text": "砂浜のボートで寝る",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "4-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "砂浜の木製ボートは寝やすそうに見えたが、夜は潮に囲まれ波が押し寄せた。翌朝は体が重く風邪っぽい症状に悩まされた。",
+              "lp": 0,
+              "next": "5"
+            }
+          },
+          {
+            "text": "森の大木の根元で休む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "4-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "大木の根元は自然のくぼみが心地よく、落ち葉を敷けば背中も安定する。体力を温存して明日へ備えられそうだ。",
+              "lp": 4,
+              "next": "5"
+            }
+          }
+        ]
+      },
+      "5": {
+      "image": {"type": "video","file": "5-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+      "text": "朝日が昇り、海を黄金に染める。胸には疑問ばかりが渦巻く。なぜ自分はこの無人島にいるのか。どうやってここに来たのか。昨日までの記憶がはっきりしない。",
+      "next": "6",
+      "choices": []
+    },
+
+      "6": {
+        "image":  {"type": "video","file": "6-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "朝食を探しに森に入ると巨大なカメレオンが現れた。どうやらこの森の主ともいえる存在らしい――さて、どう動く？",
+        "choices": [
+          {
+            "text": "その場で動かず様子をみる",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "6-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "木の実に夢中でこちらは眼中にない様子。やがて森の奥へ姿を消した。",
+              "lp": 4,
+              "next": "7"
+            }
+          },
+          {
+            "text": "石を投げて追い払う",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "6-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "石を投げ当てると巨大カメレオンがこちらに向かってきた。危うく大けがするところだった。",
+              "lp": 0,
+              "next": "7"
+            }
+          },
+          {
+            "text": "捕獲して食料にする",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "6-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "巨大カメレオンの舌が伸びて攻撃された。捕獲するどころか捕獲されそうになった。",
+              "lp": 0,
+              "next": "7"
+            }
+          }
+        ]
+      },
+
+      "7": {
+        "image":  {"type": "video","file": "8-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "巨大カメレオンをやり過ごし一息。森を抜けると洞窟が現れた。奥には光が見え、更には金属音が響いていた――なにか脱出のヒントがあるかも。",
+        "choices": [
+          {
+            "text": "木箱を開ける",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "8-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "木箱を開けると大量のコウモリが飛び出し、羽音に慌て後退。怪我はなかったが足をくじいた。結局、光の方へ進むことにした。",
+              "lp": 0,
+              "next": "52"
+            }
+          },
+          {
+            "text": "光の方へ進む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "8-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "洞窟を進むと光に照らされた地下湖に着いた。古びたコンパスを発見。これで東西南北の方角だけはわかりそうだ。",
+              "lp": 5,
+              "next": "8"
+            }
+          },
+          {
+            "text": "金属音の正体を確かめる",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "8-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "金属音の正体は鉄鍋を背負った巨大ヤドカリ。驚き転んでダメージを受ける。このあと、光のほうへ進むことにした。",
+              "lp": 0,
+              "next": "52"
+            }
+          }
+        ]
+      },
+      "8": {
+        "image":  {"type": "video","file": "9-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "方角がわかるようになり、次は島の全体像を把握するため高台を目指すことにした。森を抜けると人工的な木の構造物が見えてきた。しかし、ハシゴは途中で壊れている…。",
+        "choices": [
+          {
+            "text": "ハシゴをゆっくり登る",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "9-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "壊れた部分やさしく登るが…\nしかし足が滑り、膝を打ちつけてしまう。急がば回れ。梯子を修理しよう。",
+              "lp": 0,
+              "next": "53"
+            }
+          },
+          {
+            "text": "木をよじ登る",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "9-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "木をよじ登ることにした。\nしかし靴底が滑り、足をぶつけて激痛が走る。急がば回れ。梯子を修理しよう。",
+              "lp": 0,
+              "next": "53"
+            }
+          },
+          {
+            "text": "ハシゴを修理する",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "9-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "周囲の枝やツルを集めてハシゴを応急修理。時間は要したが無傷で見張り台の登ることができた。",
+              "lp": 6,
+              "next": "9"
+            }
+          }
+        ]
+      },
+      "9": {
+      "image": {"type": "video","file": "10-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+      "text": "見張り台の上から島全体が一望できた。\n遠くには白い砂浜と、明らかに人工的に整備された道が見える。\nその位置をコンパスにメモし、次の目的地が決まった。",
+      "next": "10",
+      "choices": []
+    },
+      "10": {
+        "image":  {"type": "video","file": "11-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "高台から見つけた人工的な道へと向かう。\n森を抜けると、ヤシの木が左右にきれいに並んだ一本道が現れた。",
+        "choices": [
+          {
+            "text": "急いでこの先に向かう",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "10-21.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "急ぎ足で先に向かう。\nしかし途中、落ちていたバナナの皮を踏み、派手にスライディング。砂まみれのままゴール地点にたどり着くと、そこには木製の看板が立っていた。新しくはないが手入れはされているようだ。",
+              "lp": 0,
+              "next": "11"
+            }
+          },
+          {
+            "text": "道の脇を進む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "10-21.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "罠を警戒して道の脇を進むことに。\nしかし足元の地面が柔らかく、気付けば片足が泥沼にはまっていた。泥だらけでゴール地点にたどり着くと、そこには木製の看板が立っていた。新しくはないが手入れはされているようだ。",
+              "lp": 1,
+              "next": "11"
+            }
+          },
+          {
+            "text": "道の真ん中を進む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "10-21.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "足元の砂は歩きやすく、左右には小さな花も咲いている。\nカーブを曲がると、木製の看板が立っていた。新しくはないが手入れはされているようだ。",
+              "lp": 5,
+              "next": "11"
+            }
+          }
+        ]
+      },
+      "11": {
+        "image":  {"type": "video","file": "11-10.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "看板に従って進むと、急に開けた場所に出た。よく見ると噴水の周りに奇妙な足跡がいくつも残っている…。",
+        "choices": [
+          {
+            "text": "噴水の水を飲む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "11-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "水面があまりに美しく、思わず手ですくって飲んでしまう。\nすると口の中に強烈な塩辛さが広がり、喉が焼けるように痛む。飲み水には適していないようだ。反省してハンモックで休むことにした。",
+              "lp": 0,
+              "next": "54"
+            }
+          },
+          {
+            "text": "足跡をたどる",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "11-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "足跡は森の奥へと続いていた。\n突然ガサガサッと茂みが揺れ、巨大なカニが飛び出してきた。\n慌てて逃げる途中で棘のあるツタに引っかかり、腕を切ってしまう。なんとか元の場所に戻って、とりあえずハンモックで休むことにした。",
+              "lp":0,
+              "next": "54"
+            }
+          },
+          {
+            "text": "ハンモックで休む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "11-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "ハンモックに身をゆだねると、心地よい揺れに全身がほぐれていく。",
+              "lp": 4,
+              "next": "12"
+            }
+          }
+        ]
+      },
+    "12": {
+        "image":  {"type": "video","file": "11-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "しばらくすると森の奥から「カン、カン」という規則正しい音が響いてきた。\n最初は風の音かと思ったが、どうやら誰かが木を切っているらしい。\n無人島に他の人間がいるのか…？",
+        "choices": [
+          {
+            "text": "木に登って様子を見る",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "12-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "高い木に登ると、森の奥で木を切る人影が見えた。何かを組み立てているようだ。\n木から降り、その方向へ向かうことにした。",
+              "lp": 5,
+              "next": "13"
+            }
+          },
+          {
+            "text": "周囲を慎重に偵察する",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "12-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "周囲を観察すると、地面に不自然な盛り上がりを発見。\n試しに踏んでみると、ヤシの実が雨のように降ってきた。危うく頭にぶつけるところだった。\n木に登って様子を見ることにした。",
+              "lp": 0,
+              "next": "55"
+            }
+          },
+          {
+            "text": "音のする方へ探索する",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "12-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "音の方へ突き進むと、突然足元が抜け、深い穴に落ちた。\nそこは巨大なモグラの巣だった。\n穴から抜け出し、木に登って様子を見ることにした。",
+              "lp": 0,
+              "next": "55"
+            }
+          }
+        ]
+      },
+
+      "13": {
+        "image":  {"type": "video","file": "13-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "音のする方へ進むと、木を切る男がいた。あなたに気づくと、笑顔で話しかけてきたが、言葉は聞いたこともない奇妙なものだった。",
+        "choices": [
+          {
+            "text": "同じように手を振る",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "13-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "あなたが両手を振り返すと、男はにっこり笑い、安心したようにうなずいた。どうやら友好的な意思が伝わったらしい。",
+              "lp": 6,
+              "next": "14"
+            }
+          },
+          {
+            "text": "笑顔でうなずく",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "13-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "あなたは笑顔でうなずいてみた。だが男は逆に首をかしげ、何度も同じ言葉を繰り返し、苛立った様子を見せた。作り笑顔は危険だ。",
+              "lp": 0,
+              "next": "14"
+            }
+          },
+          {
+            "text": "距離を保って様子を見る",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "13-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "あなたが慎重に距離を取ると、男は突然大声をあげて奇妙な言葉をまくし立てた。何か怒っているようにも見える。",
+              "lp": 0,
+              "next": "14"
+            }
+          }
+        ]
+      },
+      "14": {
+        "image":  {"type": "video","file": "14-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "奇妙なやりとりが続いたあと、彼はふいに森の奥を指差し歩き出した。",
+        "choices": [
+          {
+            "text": "素直について行く",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "14-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "木こりの背中を追うと、足場のしっかりした道へと導かれた。",
+              "lp": 6,
+              "next": "15"
+            }
+          },
+          {
+            "text": "木こりとは別の道に逃げ込む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "14-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "慌てて森へ飛び込むと、鋭い枝が顔や腕を切り裂き、浅い傷を負った。素直に彼の後を追うことにした。",
+              "lp": 0,
+              "next": "15"
+            }
+          },
+          {
+            "text": "その場に留まり様子を見る",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "14-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "動かずに様子をうかがうと、木こりは去ってしまった。直後、森の奥から獣のような声が聞こえ、慌てて彼の後を追うことにした",
+              "lp": 0,
+              "next": "15"
+            }
+          }
+        ]
+      },
+      "15": {
+        "image":  {"type": "video","file": "15-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "森を抜けると古びた桟橋。ボートは穴が開いており使えないようだ。\n木こりは桟橋やボートを指差し、首を振ったり手を広げたりして、何かを伝えようとしている。",
+        "choices": [
+          {
+            "text": "ボートを修理してみる",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "15-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "穴を塞ぎながら必死に修理を進めるが、水漏れは止まらず体力を消耗。木こりが森の奥を指差し、隠された小舟の存在を示す。これで無人島を脱出できる！",
+              "lp": 0,
+              "next": "16"
+            }
+          },
+          {
+            "text": "桟橋の残骸でいかだを作る",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "15-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "丸太や板を必死に組み合わせるも、重労働で体力を大きく消耗。途方に暮れていると、木こりが森の奥へ招き、小舟を指し示す。これで無人島を脱出できる！",
+              "lp": 0,
+              "next": "16"
+            }
+          },
+          {
+            "text": "木こりの身振りをよく観察する",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "15-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "木こりの大きなジェスチャーをよく見ると、森の奥を指していることに気づく。案内されるように進むと、そこにはしっかりした小舟が隠されていた。これで無人島を脱出できる！",
+              "lp": 6,
+              "next": "16"
+            }
+          }
+        ]
+      },
+      "16": {
+        "image": {"type": "video","file": "16-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "小舟を海に浮かべようとしたその瞬間、背筋に冷たい視線を感じた。振り返ると、茂みの奥から不気味な仮面がじっとこちらを見つめていた――。",
+        "next": "17",
+        "choices": []
+    },
+      "17": {
+        "image": {"type": "video","file": "17-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "森の奥から仮面をつけた部族が次々と姿を現した。\n――これはもう、迷っている暇はない。すぐに小舟を出さねば！",
+        "next": "19",
+        "choices": []
+    },
+
+      "19": {
+        "image": {"type": "video","file": "18-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "木こりが背後で部族と対峙しながら進むべき方向を指さした。彼が示す方向は北西。震える手でコンパスを取り出し、針を頼りに進路を定める。波は穏やかだが、荷物はほとんどない。水も食料も十分に持ち出せず、ただ櫂を漕ぐしかない。",
+        "next": "20",
+        "choices": []
+    },
+      "20": {
+        "image": {"type": "video","file": "20-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "そして心を最も締めつけるのは、木こりを残して出港してしまったことだ。彼は無事だろうか。部族に襲われたりはしないのか。答えのない問いを抱えながら、必死に櫂を動かし続けた。",
+        "next": "21",
+        "choices": []
+    },
+
+      "21": {
+        "image":  {"type": "video","file": "21-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "炎天下の漂流、小舟で渇きと空腹に耐える中、木箱と魚影を発見。",
+        "choices": [
+          {
+            "text": "海水を飲む",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "21-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "海水は絶対飲んじゃダメ。思い直して箱を手繰り寄せた。中には乾パン、水のボトル、照明弾、そして古びた救急セットが入っていた。",
+              "lp": 0,
+              "next": "22"
+            }
+          },
+          {
+            "text": "木箱を引き上げる",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "21-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "渾身の力で木箱を引き寄せて開けると、中には乾パン、水のボトル、照明弾、そして古びた救急セットが入っていた。まるで誰かが「用意していた」ようなタイミングに驚く。",
+              "lp": 7,
+              "next": "22"
+            }
+          },
+          {
+            "text": "魚を素手で捕まえる",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "21-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "素手は無理でしょう。思い直して箱を手繰り寄せた。中には乾パン、水のボトル、照明弾、そして古びた救急セットが入っていた。",
+              "lp": 0,
+              "next": "22"
+            }
+          }
+        ]
+      },
+      "22": {
+        "image": {"type": "video","file": "22.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "小舟は荒れ始めた海に翻弄されながら、必死に進んでいた。遠くに見える島までは、まだまだ距離がある。振り返れば、重たい雲が覆いかぶさるように広がり、風は次第に冷たく、鋭さを増していく。",
+        "next": "24",
+        "choices": []
+    },
+
+
+      "24": {
+        "image":  {"type": "video","file": "24.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "空は真っ暗になり、雷鳴が轟き、強風と高波が小舟を襲う。\n雨が滝のように降り、視界は真っ白。舟は今にも転覆しそうだ。",
+        "choices": [
+          {
+            "text": "力の限り漕ぐ",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "24-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "全力で漕ごうとするが、嵐の力は桁違い。大波にさらわれそうになるが、舟は浮力で持ちこたえた。嵐は数時間で収まり、なんとか生き延びた。",
+              "lp": 0,
+              "next": "25"
+            }
+          },
+          {
+            "text": "舟底に伏せ耐える",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "24-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "舟の底に伏せて重心を低くし、波の流れに逆らわずやり過ごす。大波にさらわれそうになるが、舟は浮力で持ちこたえた。嵐は数時間で収まり、なんとか生き延びた。",
+              "lp": 8,
+              "next": "25"
+            }
+          },
+          {
+            "text": "波へ向かって漕ぐ",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "24-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "波に真正面から挑んで漕ぎ続ける。転覆は免れたが、力を使い果たし腕がパンパン。幸いにも嵐は数時間で収まり、なんとか生き延びた。",
+              "lp": 0,
+              "next": "25"
+            }
+          }
+        ]
+      },
+
+      "25": {
+        "image":  {"type": "video","file": "25-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "嵐の後の静けさが訪れた海。しかし突然、水面に鋭い背びれが現れる。\n巨大なサメが舟を旋回し鋭い視線を向けている。\nこの状況をどう切り抜けるか、あなたの選択にかかっている。",
+        "choices": [
+          {
+            "text": "オールで叩く",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "25-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "勇気を振り絞ってオールで叩いた！だがそれは逆効果。サメは攻撃的になり、舟を激しく揺さぶる。さらにその大きな口を開け、小舟ごと食いちぎらんばかりに襲いかかってきた！",
+              "lp": 0,
+              "next": "28"
+            }
+          },
+          {
+            "text": "静かに動かない",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "25-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "じっと動かずに身をひそめる。サメはしばらく周囲を回った後、動きを止めた。\n安堵したのも束の間…その大きな口を開け、小舟ごと食いちぎらんばかりに襲いかかってきた！",
+              "lp": 8,
+              "next": "28"
+            }
+          },
+          {
+            "text": "大声で威嚇する",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "25-2.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "「うおおー！」と声を張り上げたその瞬間、サメは興奮して一直線に突進。小舟は体当たりを受けた。さらにその大きな口を開け、小舟ごと食いちぎらんばかりに襲いかかってきた！",
+              "lp": 0,
+              "next": "28"
+            }
+          }
+        ]
+      },
+
+
+
+      "28": {
+        "image":  {"type": "video","file": "26.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "キターーーーーーーー",
+        "choices": [
+          {
+            "text":  "オールで叩く",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "28-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "オールでサメの鼻先を思い切り叩いた！\n敏感な部分を突かれたサメは驚いて後退した。",
+              "lp": 7,
+              "next": "29"
+            }
+          },
+          {
+            "text": "静かに動かない",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "28-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "じっとしていれば去るはず…　そんなわけはない。オールでサメの鼻先を思い切り叩いた！",
+              "lp": 0,
+              "next": "29"
+            }
+          },
+          {
+            "text": "大声で威嚇する",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "28-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "「うおおーっ！」と声を張り上げた。だがそれは挑発にしかならなかった。\n思い直してオールでサメの鼻先を思い切り叩いた！",
+              "lp": 0,
+              "next": "29"
+            }
+          }
+        ]
+      },
+
+
+      "29": {
+        "image": {"type": "video","file": "29-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "危機を脱したものの、心臓はまだ激しく鼓動している…。すっかり日も暮れた遠くの水平線に、わずかな光が揺らめいているのが見える。それは船か？灯台か？希望の兆しか？",
+        "next": "30",
+        "choices": []
+    },
+      "30": {
+        "image": {"type": "video","file": "30-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "小舟を進めながら、あなたは最後の力を振り絞る。そして木箱に合った照明弾を打ち上げ、大声で叫ぶ。",
+        "next": "31",
+        "choices": []
+    },
+
+
+
+      "31": {
+        "image": {"type": "video","file": "31-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "照明弾に遠くの船が反応したようだ。やがて船が近づき、ロープが投げられる。\n救助船の甲板に引き上げられた瞬間、あなたは全身から力が抜けて倒れ込む。",
+        "next": "32",
+        "choices": []
+    },
+      "32": {
+        "image": {"type": "video","file": "32-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "そのとき甲板に立っていたのは――見覚えのあるあの木こり。彼は笑いながら、今度はあなたが理解できる言語で話しかけてきた。\n\n「よく頑張ったな。本当に、楽しんでくれたか？」",
+        "next": "34",
+        "choices": []
+    },
+
+      "34": {
+        "image": {"type": "video","file": "34-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "彼はこの島のオーナーであり、この「無人島サバイバル」は高額な料金を払った者だけが体験できるアトラクションだと明かす。\nリアリティを高めるために、記憶を一時的に失わせ、危険は巧妙にコントロールされていた。\n\nあなたは呆然としながらも、どこか心の奥で「生き抜いた」実感に満たされていた。",
+        "next": "35",
+        "choices": []
+    },
+
+      "35": {
+        "image":  {"type": "video","file": "32-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "いろいろ聞きたいことはあるだろうが、商売上すべてをお話しするわけにはいかない。質問はひとつだけ受け付ける。何を知りたい？",
+        "choices": [
+          {
+            "text": "私の記憶はいつになったら戻る？",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "34-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "記憶喪失の薬の効き目は２日間。明日にはすっかり元通りさ！",
+              "lp": 4,
+              "next": "99"
+            }
+          },
+          {
+            "text": "島の生き物やサメは本物？？",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "34-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "まさか。あれは全部ロボットだ。AIで制御している。本物に見えただろう？ ただし、潮流と天候は本物だ。",
+              "lp": 4,
+              "next": "99"
+            }
+          },
+          {
+            "text": "このイベントの参加費はいくら？",
+            "correct": true,
+            "result": {
+              "result_image": {"type": "video","file": "34-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+              "text": "各種保険込みで5,000万円だ。無人島の貸切、スタッフ、人件費、設備維持費を考えれば、利益は出ない。……まあ、ボランティアみたいなものさ。",
+              "lp": 4,
+              "next": "99"
+            }
+          }
+        ]
+      },
+
+      "50": {
+        "image": {"type": "video","file": "2-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "小道を進むと水音が響き、小川が姿を現した。飲み水になりそうだ。",
+        "next": "3",
+        "choices": []
+    },
+      "51": {
+        "image":{"type": "video","file": "3-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "森で色鮮やかな果実を発見。甘い香りに誘われて口にすると果汁が広がり、体力が回復する。しばらく食べ物は大丈夫そうだ。",
+        "next": "4",
+        "choices": []
+    },
+       "52": {
+        "image":{"type": "video","file": "8-3.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "洞窟を進むと光に照らされた地下湖に着いた。古びたコンパスを発見。これで東西南北の方角だけはわかりそうだ。",
+        "next": "8",
+        "choices": []
+    },
+       "53": {
+        "image": {"type": "video","file": "9-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "周囲の枝やツルを集めてハシゴを応急修理。時間は要したが見張り台の登ることができた。",
+        "next": "9",
+        "choices": []
+    },
+
+      "54": {
+        "image": {"type": "video","file": "11-4.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "ハンモックに身をゆだねると、心地よい揺れに全身がほぐれていく。",
+        "next": "12",
+        "choices": []
+    },
+      "55": {
+        "image":  {"type": "video","file": "12-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "高い木に登ると、森の奥で木を切る人影が見えた。何かを組み立てているようだ。\n木から降り、その方向へ向かうことにした。",
+        "next": "13",
+        "choices": []
+    },
+
+      "99": {
+        "image": {"type": "video","file": "50-1.mp4","autoplay": true,"muted": true,"loop": false,"controls": false},
+        "text": "船のデッキから振り返ると、あの島が小さく遠ざかっていく。いつの間にかライトアップまでされていた。\n木こりはにやりと笑いながら言う。\n\n「また挑戦したくなったら、いつでも帰ってきなさい。」",
+        "button_label_c": "▶終わり",
+        "choices": [],
+        "next": "100"
+      },
+
+    "100": {
+        "image": "img_gameclear.png",
+        "text": "",
+        "button_label_c": "▶終わり",
+        "choices": []
+      }
+    }
+  }
+
